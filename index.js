@@ -1,6 +1,6 @@
 'use strict';
 
-var Readable = require('stream').Readable;
+var Readable = require('readable-stream').Readable;
 // When required from browserify, Buffer is also an Uint8Array, which is important for ejson.
 var inherits = require('inherits');
 var FileReader = global.FileReader;
